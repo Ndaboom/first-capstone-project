@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Captsone project 1
 
-> Description the project.
+> Online website for a conference
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- hTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo (if available)
 
@@ -40,17 +40,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Sammy Ndabo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ndaboom](https://github.com/ndaboom)
+- Twitter: [@ndabosammy](https://twitter.com/ndabosammy)
+- LinkedIn: [Sam Ndabo](https://linkedin.com/in/sam-ndabo-b0431b17b)
 
 ## 🤝 Contributing
 
