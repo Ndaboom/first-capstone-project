@@ -3,21 +3,22 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: transparent;
 }
 
-.lato-font {
+* {
     font-style: 'Lato', sans-serif;
     font-style: normal;
 }
 
-#main_section {
+.main_section {
     background-image: url('../images/mobile-background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 600px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
 }
 
 #mobile_header {
@@ -25,11 +26,112 @@ body {
 }
 
 .home_text {
-    margin-top: 60px;
     padding: 10px;
 }
 
 .introduction_paragraph {
     padding: 10px;
     font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    background-color: gray;
+}
+
+.more_details {
+    margin: 20px 20px;
+}
+
+.more_details h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.more_details small {
+    font-size: 15px;
+}
+
+#main_program {
+    color: white;
+    background-image: url('../images/program-background.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#main_program h2 {
+    font-weight: 400;
+}
+
+.indicator {
+    width: 70px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orangered;
+}
+
+.program-element {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.program-title {
+    color: orangered;
+}
+
+#speakers_section {
+    text-align: center;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#speakers_section h2{
+    font-weight: 400;
+}
+
+.speaker-element {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.speaker-element .speaker-img {
+    height: 177px;
+}
+
+.speaker-details {
+    padding-left: 20px;
+    text-align: left !important;
+}
+
+.speaker-details h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.speaker-details em {
+    font-style: italic;
+    font-weight: 500;
+    color: orangered;
+}
+
+.speaker-details p {
+    font-size: 18px;
+}
+
+.see-more-button {
+    margin-top: 15px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    font-weight: 200;
 }
