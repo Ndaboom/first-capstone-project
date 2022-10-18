@@ -71,7 +71,7 @@ body {
 
 .indicator {
     width: 70px;
-    height: 5px;
+    height: 2px;
     margin-left: auto;
     margin-right: auto;
     background-color: orangered;
@@ -135,3 +135,104 @@ body {
     background-color: white;
     font-weight: 200;
 }
+
+/** ABOUT PAGE **/
+
+.about_main_section {
+    background-image: url('../images/mobile-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.about_home_text {
+    padding: 10px;
+}
+
+.about_introduction_paragraph {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    color: gray;
+    background-color: white;
+    text-align: center;
+}
+
+.contact_box {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.contact_box h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.contact_box a {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about_section {
+    text-align: center;
+    font-weight: 200;
+}
+
+.about_logo {
+    padding: 20px;
+    margin: 20px;
+    border-color: gray;
+    border-style: inset;
+    border-width: 0.7px;
+}
+
+.past_summits {
+    text-align: center;
+}
+
+.summit_image {
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.partners_section {
+    background-color: gray;
+    text-align: center;
+    max-width: 100%;
+}
+
+.partners_section .section_title {
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.partners_logo {
+    padding: 10px;
+    text-align: center;
+}
+
+.partner_logo {
+    width: 110px;
+    height: 50px;
+}
+
+.footer_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    padding: 20px;
+}
+
+.summit_logo {
+    padding-top: 10px;
+}
+
