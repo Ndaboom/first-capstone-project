@@ -6,8 +6,12 @@ body {
     background-color: transparent;
 }
 
+.active {
+    color: orangered;
+}
+
 * {
-    font-style: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
 }
 
@@ -27,6 +31,7 @@ body {
 
 .home_text {
     padding: 10px;
+    margin-top: 20px;
 }
 
 .introduction_paragraph {
@@ -35,11 +40,21 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0px;
-    background-color: gray;
+    color:rgb(77, 72, 72);;
+    background-color: rgb(218, 224, 224);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    border-width: 1.5px;
 }
 
 .more_details {
     margin: 20px 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(77, 72, 72);
 }
 
 .more_details h2{
@@ -75,11 +90,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: orangered;
-}
-
-.program-element {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
 
 .program-title {
@@ -205,7 +215,7 @@ body {
 }
 
 .partners_section {
-    background-color: gray;
+    background-color: #242222;
     text-align: center;
     max-width: 100%;
 }
@@ -219,11 +229,13 @@ body {
 .partners_logo {
     padding: 10px;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .partner_logo {
-    width: 110px;
-    height: 50px;
+    width: 20%;
+    height: 100px;
 }
 
 .footer_section {
@@ -233,6 +245,161 @@ body {
 }
 
 .summit_logo {
-    padding-top: 10px;
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 5%;
 }
+
+.summit_adress {
+    padding-top: 10%;
+}
+
+.pre_menu {
+    background-color: #242222;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    color: white;
+    margin: 0px;
+    margin-top: -10px;
+}
+
+.pre_menu_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.menu_tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    padding: 10px;
+    padding-left: 100px;
+    width: 30%;
+}
+
+.nav_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.cc_campaign_btn {
+    margin-top: 0px;
+    background-color: white;
+    border-color: orangered;
+}
+
+.program-element {
+    background-color: gray;
+    margin: 10px;
+}
+
+.join_button {
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+    width: 70%;
+}
+
+.see_program_btn {
+    margin: 20px;
+    margin-top: 40px;
+    width: 70%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-decoration: underline;
+}
+
+.speakers-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(516px, 1fr));
+}
+
+.speakers-list {
+   padding: 70px 70px;
+}
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 769px) {
+#desktop_header {
+    display: none;
+}
+
+.program-element {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.program-img {
+    padding: 25px;
+}
+
+.see_program_btn {
+    display: none;
+}
+
+.footer_section {
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+#mobile_header {
+    display: none;
+}
+
+#main_program {
+    min-height: 500px;
+}
+
+.join_button {
+    display: none;
+}
+
+.home_text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programs_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.program-element {
+    border: 1px solid #D0D9D4;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    transition: transform 300ms ease-in-out;
+    width: 200px;
+}
+
+.program-element:hover {
+    transform: scale(1.07);
+}
+
+.see-more-button {
+    display: none;
+}
+}
+
 

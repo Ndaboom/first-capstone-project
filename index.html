@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/b39c945343.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,8 +19,38 @@
             </nav>
         </header>
         <!-- Mobile header-->
+
+        <!-- Desktop header -->
+        <header id="desktop_header">
+            <div class="pre_menu">
+                <ul class="pre_menu_options">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li>English</li>
+                    <li>My Page</li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+            <div class="menu_tabs">
+                <div class="nav-logo">
+                    <img class="logo" src="assets/images/summit-logo.png" />
+                </div>
+                <nav class="main_nav">
+                    <ul class="nav_options">
+                        <li class="active">About</li>
+                        <li>Program</li>
+                        <li>Join</li>
+                        <li>Sponsor</li>
+                        <li>News</li>
+                    </ul>
+                </nav>
+                <button class="cc_campaign_btn active">CC Campaign</button>
+            </div>
+        </header>
+        <!-- Desktop header -->
+
         <img src="assets/images/summit.png" class="home_text" alt="introduction image" />
-        <p class="introduction_paragraph lato-font">A joyful celebration beeliving in the value of openness and sharing,
+        <p class="introduction_paragraph">A joyful celebration beeliving in the value of openness and sharing,
             creating
             a positive change with people from over 80 countries is taking place in October, in Korea.</p>
         <div class="more_details">
@@ -31,59 +62,128 @@
     <section id="main_program">
         <h2>Main program</h2>
         <div class="indicator"></div>
-        <div class="program-element">
-            <img class="program-img" src="assets/images/program_icon_01.png" alt="Program 01 image" />
-            <h3 class="program-title">Lecture</h3>
-            <p class="program-description">Listen to the speakers from various countries about the messeges of sharing
-                and opening.</p>
+        <div class="programs_list">
+            <div class="program-element">
+                <img class="program-img" src="assets/images/program_icon_01.png" alt="Program 01 image" />
+                <h3 class="program-title">Lecture</h3>
+                <p class="program-description">Listen to the speakers from various countries about the messeges of
+                    sharing
+                    and opening.</p>
+            </div>
+            <div class="program-element">
+                <img class="program-img" src="assets/images/program_icon_02.png" alt="Program 01 image" />
+                <h3 class="program-title">CC Exhibition</h3>
+                <p class="program-description">Appreciate various creations applying CC license of artists, organized
+                    from
+                    Art Center Nabi.</p>
+            </div>
+            <div class="program-element">
+                <img class="program-img" src="assets/images/program_icon_03.png" alt="Program 01 image" />
+                <h3 class="program-title">Forum</h3>
+                <p class="program-description">Have the time to share your thoughts and opinions with experts for each
+                    topic.</p>
+            </div>
+            <div class="program-element">
+                <img class="program-img" src="assets/images/program_icon_04.png" alt="Program 01 image" />
+                <h3 class="program-title">Workshop</h3>
+                <p class="program-description">Try creating your own work using open source license rather than just
+                    watching.</p>
+            </div>
+            <div class="program-element">
+                <img class="program-img" src="assets/images/program_icon_05.png" alt="Program 01 image" />
+                <h3 class="program-title">CC Ignite</h3>
+                <p class="program-description">Get opportunities to network with CC affiliates around the world, also
+                    after
+                    the summit.</p>
+            </div>
         </div>
-        <div class="program-element">
-            <img class="program-img" src="assets/images/program_icon_02.png" alt="Program 01 image" />
-            <h3 class="program-title">CC Exhibition</h3>
-            <p class="program-description">Appreciate various creations applying CC license of artists, organized from
-                Art Center Nabi.</p>
-        </div>
-        <div class="program-element">
-            <img class="program-img" src="assets/images/program_icon_03.png" alt="Program 01 image" />
-            <h3 class="program-title">Forum</h3>
-            <p class="program-description">Have the time to share your thoughts and opinions with experts for each
-                topic.</p>
-        </div>
-        <div class="program-element">
-            <img class="program-img" src="assets/images/program_icon_04.png" alt="Program 01 image" />
-            <h3 class="program-title">Workshop</h3>
-            <p class="program-description">Try creating your own work using open source license rather than just
-                watching.</p>
-        </div>
-        <div class="program-element">
-            <img class="program-img" src="assets/images/program_icon_05.png" alt="Program 01 image" />
-            <h3 class="program-title">CC Ignite</h3>
-            <p class="program-description">Get opportunities to network with CC affiliates around the world, also after
-                the summit.</p>
-        </div>
+        <button class="join_button">Join CC Global Summit 2015</button>
+        <button class="see_program_btn">SEE THE WHOLE PROGRAM </button>
     </section>
     <section id="speakers_section">
         <h2>Featured speakers</h2>
         <div class="indicator"></div>
-        <div class="speaker-element">
-            <img class="speaker-img" src="assets/images/speaker1.png" alt="Speaker 01 image" />
-            <div class="speaker-details">
-                <h3>Yochai Benkler</h3>
-                <em>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</em>
-                <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks
-                    in 2006.</p>
+        <div class="speakers-list">
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker1.png" alt="Speaker 01 image" />
+                <div class="speaker-details">
+                    <h3>Yochai Benkler</h3>
+                    <em>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</em>
+                    <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of
+                        Networks
+                        in 2006.</p>
+                </div>
             </div>
-        </div>
-        <div class="speaker-element">
-            <img class="speaker-img" src="assets/images/speaker3.png" alt="Speaker 01 image" />
-            <div class="speaker-details">
-                <h3>SohYeong Noh</h3>
-                <em>Director of Art Centre Nabi and a board member of CC Korea</em>
-                <p>As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary
-                    collaboration and understanding among science technology, humanities, and the arts.</p>
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker3.png" alt="Speaker 01 image" />
+                <div class="speaker-details">
+                    <h3>SohYeong Noh</h3>
+                    <em>Director of Art Centre Nabi and a board member of CC Korea</em>
+                    <p>As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary
+                        collaboration and understanding among science technology, humanities, and the arts.</p>
+                </div>
+            </div>
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker2.png" alt="Speaker 01 image" />
+                <div class="speaker-details">
+                    <h3>Kilnam Chon</h3>
+                    <p>Kilham Chon helped bring the internet to Asia and is an outspoken advocate for the open web and
+                        digital commons. In 2012, he was inducted into the inaugural class of the Internet Society's
+                        (ISOC) Internet Hall of Fame.</p>
+                </div>
+            </div>
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker4.png" alt="Speaker 01 image" />
+                <div class="speaker-details">
+                    <h3>Julia Leda</h3>
+                    <em>President of Young Pirates of Europe</em>
+                    <p>European integration, political democracy and participation of youth through online as her major
+                        condem, Reda's report outlining potential changes to EU copyright law was approved by the
+                        Parlament in July.</p>
+                </div>
+            </div>
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker5.png" alt="Speaker 01 image" />
+                <div class="speaker-details">
+                    <h3>Lila Tretikov</h3>
+                    <em>Executive Director of the Wikimedia Foundation</em>
+                    <p>Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization
+                        that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half
+                        a billion people around the world every month.</p>
+                </div>
+            </div>
+            <div class="speaker-element">
+                <img class="speaker-img" src="assets/images/speaker6.png" alt="Speaker 06 image" />
+                <div class="speaker-details">
+                    <h3>Ryan Merkley</h3>
+                    <em>CEO of Creative Commons, ex COO of the Mozilla Foundation</em>
+                    <p>Ryan had been leading open-source projects at the Mozilla Foundation such as the open source
+                        movement.</p>
+                </div>
             </div>
         </div>
         <button class="see-more-button">MORE</button>
+    </section>
+    <section class="partners_section">
+        <h2 class="section_title">Partners</h2>
+        <div class="indicator"></div>
+        <div class="partners_logo">
+            <img src="assets/images/partners/airbnb-logo.png" class="partner_logo" alt="Airbnb logo" />
+
+            <img src="assets/images/partners/google-logo.png" class="partner_logo" alt="Google logo" />
+
+            <img src="assets/images/partners/samsung-logo.png" class="partner_logo" alt="Samsung logo" />
+
+            <img src="assets/images/partners/naver-logo.png" class="partner_logo" alt="Naver logo" />
+        </div>
+    </section>
+    <section class="footer_section">
+        <div class="summit_logo">
+            <img src="assets/images/summit-logo.png" alt="Summit logo" />
+        </div>
+        <div class="summit_adress">
+            <p>2015 Creative Commons Korea.<br>Some Rights Reserved.</p>
+        </div>
     </section>
 
 </body>
