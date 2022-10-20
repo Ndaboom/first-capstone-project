@@ -428,8 +428,12 @@ body {
     display: none;
 }
 
-.footer_section {
-    display: none;
+.footer_section .summit_logo {
+    padding-top: 5%;
+}
+
+.footer_section .summit_adress {
+    padding-top: 3%;
 }
 }
 
@@ -481,6 +485,11 @@ body {
 
 .about_partners_section {
     display: none;
+}
+
+.footer_section {
+    background-color: #242222;
+    color: white;
 }
 
 .footer_section .summit_logo {
