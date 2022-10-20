@@ -3,11 +3,11 @@
 /* stylelint-disable color-hex-case */
 /* stylelint-disable indentation */
 /* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable length-zero-no-unit */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    padding: 0px;
     margin: 0px;
     background-color: transparent;
 }
@@ -39,14 +39,12 @@ body {
 .introduction_paragraph {
     padding: 10px;
     font-size: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    color:rgb(77, 72, 72);;
+    color:rgb(77, 72, 72);
     background-color: rgb(218, 224, 224);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
     border-color: white;
     border-width: 1.5px;
 }
@@ -183,7 +181,7 @@ body {
     text-align: center;
 }
 
-.contact_box h2{
+.contact_box h2 {
     font-size: 20px;
     font-weight: 600;
     margin-top: 2px;
@@ -316,7 +314,7 @@ body {
 
 .nav_options li a {
     text-decoration: none;  
-    color: #242222; 
+    color: #242222;
 }
 
 .active {
@@ -359,10 +357,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
     gap: 10px;
-}
-
-.speakers-list {
-   padding: 70px 70px;
+    padding: 70px 70px;
 }
 
 .section_description {
@@ -439,7 +434,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
 #mobile_header {
     display: none;
 }

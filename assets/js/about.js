@@ -21,12 +21,3 @@ menuOptions.forEach((option) => {
     popup.classList.add('hide');
   });
 });
-
-// Modal close event
-modalCloseBtn.addEventListener('click', () => {
-  modalSection.classList.add('hide');
-});
-
-modalSection.addEventListener('click', () => {
-  modalSection.classList.add('hide');
-});
