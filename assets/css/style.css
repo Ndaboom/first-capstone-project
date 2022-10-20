@@ -351,10 +351,15 @@ body {
 .speakers-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(516px, 1fr));
+    gap: 10px;
 }
 
 .speakers-list {
    padding: 70px 70px;
+}
+
+.section_description {
+    font-weight: 200;
 }
 
 /** MEDIA QUERIES **/
