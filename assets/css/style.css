@@ -6,10 +6,6 @@ body {
     background-color: transparent;
 }
 
-.active {
-    color: orangered;
-}
-
 * {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -313,6 +309,15 @@ body {
     gap: 15px;
 }
 
+.nav_options li a {
+    text-decoration: none;  
+    color: #242222; 
+}
+
+.active {
+    color: orangered !important;
+}
+
 .cc_campaign_btn {
     margin-top: 0px;
     background-color: white;
@@ -428,11 +433,6 @@ body {
 
 .about_partners_section {
     display: none;
-}
-
-.footer_section {
-    background-color: #242222;
-    color: white;
 }
 
 .footer_section .summit_logo {
