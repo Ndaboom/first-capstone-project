@@ -236,6 +236,7 @@ body {
 .about_partners_section {
     background-color: #242222;
     text-align: center;
+    color: white;
     max-width: 100%;
 }
 
@@ -352,7 +353,7 @@ body {
 }
 
 /** MEDIA QUERIES **/
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
 #desktop_header {
     display: none;
 }
@@ -375,7 +376,7 @@ body {
 }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
 #mobile_header {
     display: none;
 }
