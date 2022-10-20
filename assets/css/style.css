@@ -26,8 +26,8 @@ body {
 }
 
 .home_text {
+    margin-top: 100px;
     padding: 10px;
-    margin-top: 20px;
 }
 
 .introduction_paragraph {
@@ -156,7 +156,7 @@ body {
 
 .about_home_text {
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 100px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -319,7 +319,9 @@ body {
 }
 
 .cc_campaign_btn {
-    margin-top: 0px;
+    margin-top: 7px;
+    margin-left: 70px;
+    height: 40px;
     background-color: white;
     border-color: orangered;
 }
@@ -401,6 +403,7 @@ body {
 
 .home_text {
     width: 80%;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
