@@ -1,3 +1,9 @@
+/* stylelint-disable declaration-colon-space-after */
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable color-hex-case */
+/* stylelint-disable indentation */
+/* stylelint-disable no-missing-end-of-source-newline */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -53,7 +59,7 @@ body {
     color: rgb(77, 72, 72);
 }
 
-.more_details h2{
+.more_details h2 {
     font-size: 20px;
     font-weight: 600;
     margin-top: 0px;
@@ -99,7 +105,7 @@ body {
     padding-right: 25px;
 }
 
-#speakers_section h2{
+#speakers_section h2 {
     font-weight: 400;
 }
 
@@ -143,7 +149,6 @@ body {
 }
 
 /** ABOUT PAGE **/
-
 .about_main_section {
     background-image: url('../images/mobile-background.png');
     background-repeat: no-repeat;
@@ -151,7 +156,7 @@ body {
     background-size: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
 
 .about_home_text {
@@ -181,7 +186,7 @@ body {
 .contact_box h2{
     font-size: 20px;
     font-weight: 600;
-    margin-top: 0px;
+    margin-top: 2px;
     margin-bottom: 5px;
 }
 
@@ -374,39 +379,39 @@ body {
 
 /** POPUP STYLES **/
 .popup {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        z-index: 1000000;
-        background-color: #fdfdfd;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000000;
+    background-color: #fdfdfd;
 }
 
 .close_icon {
-        text-align: right;
+    text-align: right;
 }
 
 .popup-content {
-        max-width: 85%;
-        margin: 20px auto;
+    max-width: 85%;
+    margin: 20px auto;
 }
 
 .popup_menu_option {
-        list-style-type: none;
-        margin-bottom: 20px;
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 
 .popup_menu_option a {
-        text-decoration: none;
-        color: #242222;
-        font-size: 25px;
-        font-weight: 600;
-        font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: #242222;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
 }
 
 .close_img_icon {
-        cursor: pointer;
+    cursor: pointer;
 }
 
 /** MEDIA QUERIES **/
@@ -434,6 +439,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+
 #mobile_header {
     display: none;
 }
@@ -491,5 +497,3 @@ body {
     padding-top: 3%;
 }
 }
-
-
