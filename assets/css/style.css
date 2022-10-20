@@ -160,6 +160,10 @@ body {
 
 .about_home_text {
     padding: 10px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about_introduction_paragraph {
@@ -188,11 +192,15 @@ body {
 .contact_box a {
     font-size: 15px;
     font-weight: 600;
+    color: #242222;
 }
 
 .about_section {
     text-align: center;
     font-weight: 200;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about_logo {
@@ -207,14 +215,25 @@ body {
     text-align: center;
 }
 
+.summits_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(516px, 1fr));
+}
+
 .summit_image {
     width: 90%;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 10px;
 }
 
 .partners_section {
+    background-color: #242222;
+    text-align: center;
+    max-width: 100%;
+}
+
+.about_partners_section {
     background-color: #242222;
     text-align: center;
     max-width: 100%;
@@ -354,7 +373,6 @@ body {
 .footer_section {
     display: none;
 }
-
 }
 
 @media only screen and (min-width: 769px) {
@@ -399,6 +417,29 @@ body {
 
 .see-more-button {
     display: none;
+}
+
+.about_logo {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_partners_section {
+    display: none;
+}
+
+.footer_section {
+    background-color: #242222;
+    color: white;
+}
+
+.footer_section .summit_logo {
+    padding-top: 3%;
+}
+
+.footer_section .summit_adress {
+    padding-top: 3%;
 }
 }
 
