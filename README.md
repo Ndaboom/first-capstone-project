@@ -2,41 +2,29 @@
 
 # Captsone project 1
 
-> Online website for a conference
+> Online website for CG Global summit
 
 
 ## Built With
 
-- hTML
+- HTML
 - CSS
 - JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ndaboom.github.io/first-capstone-project/index.html)
 
 
-## Getting Started
+## Captsone 1 project
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This project is build to showcase the skills acquired in the microverse's module 1 section.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- PC & Internet
 
 ## Authors
 
@@ -58,9 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin the author of the [original Design](https://www.behance.net/adagio07)
 
 ## 📝 License
 
